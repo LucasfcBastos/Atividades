@@ -1,0 +1,29 @@
+desafio - DevTech Solutions
+
+uma empresa de desenvolvimento de software
+150 funcionários
+clientes médio e grande projetos
+como consultor
+levar nivels estrategicos
+
+- Gestão de processos e projetos:
+priorização ineficiente e falta de processos
+
+- Alinhamento TI e negócio
+vista apenas suporte opercional, sem participação
+
+- Gerenciament de serviços de TI
+falta de processo formalizado e ausencia de catalogo de formal
+
+- Gestão de riscos e segurança
+politica de segurança não disseminada e sem palno de estrutura de continuade
+
+trabalho
+1.analise de maturidade - qual e porque
+2.matriz swot - swot
+3.proposta de melhorias - ter ideias de melhoria
+
+reflexões:
+qual fremework poderia ajudar
+como alinha melhor o ti ao objetivo
+qual metodologia poderia estruturar melhor

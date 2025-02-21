@@ -1,0 +1,48 @@
+foco no investimento operacional
+
+GESTÃO DE IT - O QUE NÃO PODE FALTAR
+ - Processos Padronizados
+ - Medição
+ - Priorização e proatividade
+ - Alinhar TI e área de negócios
+
+-------------------------------
+
+MATURIDADE DE TI "níveis de maturidade":
+ - NÍVEL 1 ARTESANAL: sem processos definidos
+ - NÍVEL 2 EFICIENTE: definidos e não respeitados
+ - NÍVEL 3 EFETIVA: processos definidos e respeitados
+ - NÍVEL 4 ESTRATÉGICA: propor processos que pode ajudar
+
+PLANO DE TI "gestor de TI deixa de pensar só tecnicamente":
+
+FRAMEWORKS DE APOIO "não é fest-food":
+ - IMPLAMENTAR GORVERNANÇA: ações leva tempo para construir e aperfeiçoar
+ - GARANTIR QUE FAÇA CERTO: padronizar e definir, desenvolver e mitigar os riscos
+ // **ITIL - serviços** e COBIT - governança e gerenciamento
+
+-------------------------------
+
+COBIT
+
+ITIL
+
+-------------------------------
+
+pensar na transição
+modelagem de serviços
+serviço em operação
+
+-------------------------------
+
+revisar sobre PDCA
+
+-------------------------------
+
+todo pedido, têm que responde esses itens:
+
+1.O que tu vai fazer?
+2.
+3.Quem vai fazer?
+4.Como tu vai fazer?
+5.Quanto vai custa?
