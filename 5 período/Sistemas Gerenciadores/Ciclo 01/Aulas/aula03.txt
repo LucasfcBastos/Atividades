@@ -1,0 +1,40 @@
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+CARNALIDADE
+sempre tratamos da seguinte forma (No mínimo X e no máximo Y)
+
+ - X:Y
+ - 0:N = "Um derpatamento pode ter 0 ou muitos empregados"
+ - 1:1 = "um empregado pode está addociado a 1 derpatamento"
+
+Tipos:
+ - 0 = pra representar que a entidade estar se relacionando a NULL de outra entidade
+ - 1 = pra representar que a entidade estar se relacionando apenas 1 de outra entidade
+ - N = pra representar que a entidade estar se relacionando a varios de outra entidade
+
+Sempre, depois das formas de normalização, só utilizamos esses quatros:
+- 1:N = uma linhas e pé de galinha
+- 0:N = um circulo e pé de galinha
+- 0:1 = um circulo e um linhas
+- 1:1 = duas linhas
+e no banco, quando e muitos pra muitos, transformamos um relacionamento em uma nova tabela: puxando a chave primaria da entidade anterior e da entidade pos de um relacionando
+
+--------------------------------------------------------------------------------------------------------------------------
+
+para consultar você pode fazer o seguinte
+[ select * from NOME_TABELA {comando do que deseja} ]
+
+query é uma consulta
+
+--------------------------------------------------------------------------------------------------------------------------
+
+MYSQL = MySQL Workbench
+PostgreSQL = pgAdmin
+SQLServer = SSMS
+SQLite = DBeaver
+IBM DB2 = Db2 client
+Oracle = SQL Developer
+
+--------------------------------------------------------------------------------------------------------------------------
