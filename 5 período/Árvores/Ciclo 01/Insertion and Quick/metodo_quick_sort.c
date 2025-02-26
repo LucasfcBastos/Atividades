@@ -10,7 +10,6 @@ void trocar(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
-    
 }
 
 // Função de partição (coloca os menores à esquerda e os maiores à direita do pivô)
