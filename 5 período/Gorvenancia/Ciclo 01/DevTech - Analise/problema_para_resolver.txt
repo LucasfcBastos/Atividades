@@ -1,29 +1,32 @@
-desafio - DevTech Solutions
+* Desafio de Governança de TI: DevTech Solutions *
 
-uma empresa de desenvolvimento de software
-150 funcionários
-clientes médio e grande projetos
-como consultor
-levar nivels estrategicos
+Bem-vindos ao desafio da DevTech Solutions, uma empresa de desenvolvimento de software em rápido crescimento. Com 150 funcionários, a DevTech atende clientes de médio e grande porte, mas enfrenta desafios significativos em sua governança de TI. Vamos explorar a situação atual, os principais desafios e sua missão como consultores para elevar a TI a um nível estratégico.
 
-- Gestão de processos e projetos:
-priorização ineficiente e falta de processos
+-------------------------------
 
-- Alinhamento TI e negócio
-vista apenas suporte opercional, sem participação
+* Cenário Atual e Desafios *
 
-- Gerenciament de serviços de TI
-falta de processo formalizado e ausencia de catalogo de formal
+Gestão de Processos e Projetos:
+ - Priorização ineficiente de projetos e falta de processo claro para gestão de mudanças, resultando em gargalos e retrabalho.
 
-- Gestão de riscos e segurança
-politica de segurança não disseminada e sem palno de estrutura de continuade
+Alinhamento TI e Negócio:
+ - TI vista apenas como suporte operacional, sem participação ativa nas decisões estratégicas e sem modelo de acompanhamento de desempenho.
 
-trabalho
-1.analise de maturidade - qual e porque
-2.matriz swot - swot
-3.proposta de melhorias - ter ideias de melhoria
+Gerenciamento de Serviços de TI :
+ - Falta de processo formalizado para atendimento de chamados e ausência de catálogo formal de serviços.
 
-reflexões:
-qual fremework poderia ajudar
-como alinha melhor o ti ao objetivo
-qual metodologia poderia estruturar melhor
+Gestão de Riscos e Segurança:
+ - Política de segurança não disseminada e ausência de plano estruturado de continuidade de negócios.
+
+-------------------------------
+
+* Sua Missão como Consultores *
+
+Análise de Maturidade:
+ - Avaliar o nível atual de maturidade da TI na DevTech Solutions com base nos desafios apresentados.
+
+Matriz SWOT:
+ - Construir uma Matriz SWOT identificando forças, fraquezas, oportunidades e ameaças para a governança de TI da empresa.
+
+Proposta de Melhorias:
+ - Indicar possíveis caminhos para melhoria, sugerindo frameworks e metodologias que possam ajudar a resolver os problemas identificados.

@@ -1,0 +1,35 @@
+## GESTÃO DE RISCOS ##
+
+-------------------------------
+
+ * DIFERENCIAÇÃO *
+
+RISCO:
+ - e o que pode acontecer
+ - contextual
+ - incerto
+ - impacto negativo ou possitivo
+ - o que pode se tonar um problema
+
+PROBLEMA:
+ - e o que estar acontecendo
+ - fato
+ - devemos evita-lo
+ - geralmente negativo
+ - a materialização de um risco
+
+-------------------------------
+
+ * PRATICAS * 
+
+EAR [estrutura analística de riscos para o projeto]
+"parecido com EAP"
+ - RISCO TÉCNICOS: Estão relacionados às incertezas e desafios técnicos do projeto.
+ - RICOS ORGANIZACIONAIS: São riscos internos ligados à estrutura da empresa e aos processos organizacionais
+ - RISCOS  EXTERNOS: São riscos fora do controle de organização, geralmente ligados ao ambiente externo
+ - RISCOS DE GERENCIAMENTO DE PROJETOS: São riscos associados ao planejamento, execução e controle do projeto
+
+--------------------
+projeto clinica de psicologia
+uma soluçlão web
+cadastrar, agendar e relatorio

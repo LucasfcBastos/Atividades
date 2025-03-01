@@ -42,7 +42,7 @@ revisar sobre PDCA
 todo pedido, têm que responde esses itens:
 
 1.O que tu vai fazer?
-2.
+2.Pra quem vai ser?
 3.Quem vai fazer?
 4.Como tu vai fazer?
 5.Quanto vai custa?
