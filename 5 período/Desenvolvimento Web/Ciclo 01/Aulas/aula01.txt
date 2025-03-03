@@ -1,0 +1,67 @@
+/ * / NÃO TÊM NADA A VER COM O CONTEÚDO, MAS É BOM APRENDER / * /
+
+-------------------------------
+ | FERRAMENTAS |
+
+- OS:
+macOS, *Linux*, *Windows*
+- Editor de Textos:
+*VSCode*, Sublime Text, PyCharm
+- Browser:
+*Chormo*, *Firefox*, Safari
+- Terminal:
+iTerm, Hyper, cmder, *Git Bash*
+- Designer:
+*Figma*, Canvas, Sketch, Adobe XD
+- Teste:
+*Sekenum*, TestComplete, Cypress, JMeter, OWASP, Cucumber, JUnit 5, *Postman*
+
+-------------------------------
+ | BLOCO DE CONSTRUÇÃO |
+
+ - HTML5
+ - CSSFundamentals
+ - CSS Grid & Flexbox
+ - CSS Custom Propefiies
+ - CSSTransitions
+ - CSS 3
+
+-------------------------------
+ | CSS |
+
+ - Media Queries
+ - Bootstrap
+ - Block, Element, Modifier
+
+-------------------------------
+ | JavaScript |
+
+ - Fundamentals
+ - DOM
+ - JSON
+ - Fetch API
+ - Modern JavaScript
+ - Lodash
+
+-------------------------------
+ | OPTIMIZAÇÃO |
+
+ - Code Minification
+ - Lazy loading
+
+-------------------------------
+ | FERRAMENTAS DE DESENVOLVEDOR |
+
+ - GIT e GITHUB
+ - npm
+ - yarn
+ - webpack
+ - parcel
+
+-------------------------------
+ | FRONTEND FRAMEWORK |
+
+ - React
+ - Vue
+ - Angular
+ - etc.

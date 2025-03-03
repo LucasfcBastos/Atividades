@@ -1,0 +1,96 @@
+ | HISTORIA |
+
+o HTML existem desde 1991
+sua ultima atualização foi em 2014 (HTML 5)
+e depois isso só atualização:
+ - 2016 = HTML 5.1
+ - 2017 = HTML 5.2
+
+-------------------------------
+ | PROGRAMANDO |
+
+1. cria uma pasta
+2. abrir o VSCode
+3. criar arquivo de dentro da pasta
+4. nomealo de index.html
+5. salvar arquivor
+6. abrir ele em um Browser
+
+-------------------------------
+ | SINTAXE |
+
+você sempre abre uma tag com <>
+exemplo <html>
+e você têm que semple lembrar de fecha-la
+exemplo <html>...</html>
+você pode optar por:
+ - <tag> ... </tag>
+ - <tag />
+para comentar no codigo, sem exibir no html, você usa: <!-- comment text -->
+
+-------------------------------
+ | TERMINOLOGIA |
+
+ * <title>text</title> *
+
+<title> = tag aberta
+</title> = tag fechada
+<title>...</title> = contentor
+text = conteúdo
+<title>text</title> = elemento
+
+ * <img src="link"> *
+
+src = nome de atributo
+link = valor de atributo
+
+ *  <html>
+        <head>
+        </head>
+        <body>
+        </body>
+    </html> *
+
+<head> ... </head> = documentação de metadados
+<body> ... </body> = documentação de conteudo
+
+-------------------------------
+ | TAGS |
+
+<p>...</p> = texto
+<br /> = paragrafo
+
+<h1>...</h1> = titulo
+
+<strong>...</strong> = negrito
+<em>...</em> = itálico
+
+<hr> - linha horizontal
+
+<ol></ol> = ordenar com numeros
+<ul></ul> = ordenar com ponto
+<li></li> = itens da lista
+
+<table></table> = tabela
+<thead></thead> = cabeçalho da tabela
+<tbody></tbody> = corpo da tabela
+<tr></tr> = cada linha da tabela
+<th></th> = coluna com célula em negrito
+<th></th> = coluna com célula
+ - colspan="X" = mescla colunas
+ - rowspan="X" = mescla linha
+
+<a>...</a> = criar link clicavel
+
+<img /> gerar imagem
+
+<div></div> = agrupar elementos
+
+-------------------------------
+ | DESIGNER ATOMICO |
+
+ - ATOMS (átmos): Estes são os blocos básicos da matéria que formam a interface.
+ - MOLECULES (moléculas): Grupos simples de elementos da interface do utilizador que funcionam em conjunto como uma unidade.
+ - OTGANISMS (organismo): Conjuntos de moléculas que funcionam em conjunto como uma unidade.
+ - TAMPLATES (template): Afastando-nos dos termos químicos, os modelos são objectos ao nível da página. Aonde colocamos componentes num layout que forma a estrutura da página.
+ - PAGES (pagina): É o resultado final, exatamente igual ao modelo, só que preenchido com informações reais.
