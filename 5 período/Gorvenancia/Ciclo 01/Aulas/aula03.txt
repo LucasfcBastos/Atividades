@@ -10,8 +10,8 @@ GESTÃO DE IT - O QUE NÃO PODE FALTAR
 
 MATURIDADE DE TI "níveis de maturidade":
  - NÍVEL 1 ARTESANAL: sem processos definidos
- - NÍVEL 2 EFICIENTE: definidos e não respeitados
- - NÍVEL 3 EFETIVA: processos definidos e respeitados
+ - NÍVEL 2 EFICIENTE: definidos e respeitados
+ - NÍVEL 3 EFETIVA: processos definidos e respeitados com foco no projeto
  - NÍVEL 4 ESTRATÉGICA: propor processos que pode ajudar
 
 PLANO DE TI "gestor de TI deixa de pensar só tecnicamente":

@@ -1,0 +1,73 @@
+ /* COMANDOS SQL */
+
+--------------------------------------------------------------------------------------------------------------------------
+
+comando utilizado para criar um banco de dados
+[ CREATE DATABASE name_bank; ]
+
+comando utilizado para excluir um banco de dados
+[ DROP DATABASE name_bank ]
+
+comando para selecionar o banco que queremos
+[ USE master
+    GO
+    IF NOT EXISTS (
+        SELECT name
+        FROM sys.databases
+        WHERE name = N'name_bank'
+    )
+    CREATE DATABASE [name_bank] ]
+
+--------------------------------------------------------------------------------------------------------------------------
+
+ // CRIAR TABELA E SUA COLUNAS
+
+para criar uma nova tabela
+[ CREATE TABLE tbNovaTabela () ]
+
+dentro do parênteses ao criar uma tabela, você têm que seguir esse padrão [
+    nome_do_atributo + tipo_de_dado + NULL ou NOT NULL
+]
+
+os tipos de dados são:
+ - varchar(X) = para texto
+ - int = para numeros inteiros
+ - decimal(X) = para numeros ponto flutuantes
+ - bit = para verdadeiro ou falso
+
+NULL e NOT NULL:
+ - NOT NULL: não permite que a coluna tenha valores nulos
+ - NULL: permite que a coluna tenha valores nulos
+
+quando for definir uma chave primaria, você têm que seguir essa padrão [
+    nome_do_atributo_id int IDENTITY(1,1) NOT NULL
+] depois você têm que adicionar essa linha no final [
+    PRIMARY KEY(nome_do_atributo_id)
+]
+
+IDENTITY(X,Y) 
+ - IDENTITY = auto-incremento
+ - X = valor inicial
+ - Y = incremento entre cada novo valor
+
+PRIMARY KEY = chave primaria
+
+e quando for refereciar uma chave estrangeira, você têm que adicionar essa linha [
+    FOREIGN KEY (nome_do_atributo_da_mesma_tabela) REFERENCES "dbo"."nome_da_outra_tabela" (nome_da_chave_primaria_da_outra_tabela)
+]
+
+FOREIGN KEY = chave estrangeira
+
+REFERENCES = define qual tabela e coluna a chave estrangeira referêcia
+
+Analisa em [../Consulta/aula04.txt]
+
+--------------------------------------------------------------------------------------------------------------------------
+
+ // INSERIR DADOS NA TABELA
+
+para colocar dados, têm que seguir esse padrão
+[ INSERT INTO tbNomeTabela (nome_do_atributo) VALUES ]
+
+e a cada linha que você escrever equiva a uma linha de dados
+quando terminar de inserir todos os dados que você deseja, no final da linha, têm que adicionar ';' no final

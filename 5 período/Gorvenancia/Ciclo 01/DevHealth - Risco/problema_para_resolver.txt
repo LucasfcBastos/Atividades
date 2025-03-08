@@ -1,0 +1,29 @@
+* Desafio de Governança de TI: DevHealth Solutions *
+
+A DevHealth Solutions é uma empresa especializada no desenvolvimento de software para o setor da saúde, atendendo hospitais, farmácias, clínicas médicas e laboratórios. Apesar da experiência acumulada ao longo de 10 anos, a empresa enfrentou desaﬁos em projetos anteriores, como atrasos na entrega, problemas de segurança, baixa adoção pelos usuários e diﬁculdades em conformidade regulatória.
+
+-------------------------------
+
+* Cenário Atual e Desafios *
+
+Agora, a empresa inicia um novo projeto para um cliente estratégico e precisa garantir que os erros do passado não se repitam. Para isso, foi solicitado à equipe de TI um levantamento detalhado dos riscos envolvidos no desenvolvimento do sistema e uma análise criteriosa para mitigar problemas antes que impactem o projeto.
+
+-------------------------------
+
+* Sua Missão como integrante da equipe de TI *
+
+Identiﬁcação dos Riscos do Projeto:
+ - Fazer uma estrutura analítica de riscos desse projeto.
+
+Realizar a Análise Qualitativa:
+ - Priorizar os riscos com maior impacto e probabilidade.
+ - Criar uma lista priorizada para tratar primeiro os riscos mais críticos.
+
+Realizar a Análise Quantitativa:
+ - Aplicar modelos numéricos para entender os impactos ﬁnanceiros e operacionais.
+ - Estabelecer um nível aceitável de risco.
+
+Elaborar Estratégias de Resposta aos Riscos:
+ - Evitar: Modiﬁcar o planejamento para eliminar o risco.
+ - Mitigar: Criar ações para reduzir a probabilidade ou impacto.
+ - Aceitar: Se o risco for baixo, monitorá-lo sem ação imediata. 

@@ -1,0 +1,90 @@
+## GESTÃO DE CONHECIMENTO ##
+
+-------------------------------
+
+DADO:
+ - registros brutos
+
+INFORMAÇÃO:
+ - resultado de uma pesquisa, transforma dado em um contexto
+
+CONHECIMENTO:
+ - informação da mente, o que a gente têm ou adiquiri
+
+EXPERTISE:
+ - uma competência ou uma referencia na area, resultado de muito conhecimento
+
+-------------------------------
+
+Dentro de gorvenancia, transmitir conhecimento
+
+identificação > captura > avaliação > recuperação > compartilhamento
+
+Conhecimento é ativo - lá ele
+
+DEFINIÇÃO: conhecimento é o processo de captura, distribuição e uso efetivo
+
+-------------------------------
+
+força de trabalho = 15%
+capital financeiro = 30%
+conhecimento = 55%
+
+precisamos que o conhecimento flua entre os integrantes
+
+-------------------------------
+
+ / PARA QUE SERVER? /
+
+reduzir os silos de informação
+obter e disseminar conhecimento externo
+aumentar grau de colaboração
+preservar a memória da organização
+melhorar o processo de inovação
+ganhar produtividade
+reutilizar soluções
+identificar quem sabe o quê
+prover informação relevante
+
+-------------------------------
+
+VERBOS QUE NOTEA A GESTÃO DO CONHECIMENTO
+
+ > criar: criar conhecimento para que todos possom adquerir conhecimento
+   > registrar: registrar conhecimento que a equipe domina
+     > compartilhar: divulgar conheciemnto entre os time
+
+-------------------------------
+
+recurso     --> gerir o que as pessoas sabem
+alvo        --> promover "ferramentas de TI" e compartilhar
+adquirido   --> preciso acumular conhecimento e exportar ele
+
+-------------------------------
+
+ponta do iceberg > explícito = aquilo que você consegui ver nas pessoas
+resto do iceberg > tática = saber o conhecimento das pessoas, além do que a gente viu
+
+-------------------------------
+
+conehcimento: resultado da interação socila entre os conhecimento tático e explícito
+
+T = Tático | E = Explícito
+
+T.T compartilhado > socialização = socialização entre as pessoas
+T.E conceitual > externalização = demostrar conhecimento para outras pessoas
+E.E sistémica > combinação = combina ambos conhecimentos em algo que se combina
+E.T operacional > interlização = fazer de verdade
+
+-------------------------------
+
+gestão de conhecimento
+ - não é tecnologia, mas usa tecnologia
+ - não funciona sem mudanças culturais e gerenciais
+ - é uma metodologia, não é um produto
+ - requer de atuação de equipes multidisciplinar
+
+-------------------------------
+
+saber o que uma pessoa sabe, e converter um produto e passa pra proximo - não é conhecimento
+têm que saber se o proximo sabe

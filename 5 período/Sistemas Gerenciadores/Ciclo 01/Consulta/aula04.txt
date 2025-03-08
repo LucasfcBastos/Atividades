@@ -1,0 +1,27 @@
+CREATE TABLE tbCargo (
+    CargoID INT IDENTITY(1,1) NOT NULL,
+    Nome VARCHAR(100) NOT NULL,
+    PRIMARY KEY (CargoID),
+);
+
+CREATE TABLE tbFuncionario (
+    FuncionarioID INT IDENTITY(1,1) NOT NULL,
+    Nome VARCHAR(100) NOT NULL,
+    Idade INT NULL,
+    CargoID INT NULL,
+    Salario DECIMAL(10,2) NOT NULL,
+    Ativo BIT NOT NULL DEFAULT 1,
+    PRIMARY KEY (FuncionarioID),
+    FOREIGN KEY (CargoID) REFERENCES dbo.tbCargo (CargoID) ON DELETE SET NULL
+);
+
+INSERT INTO tbCargo (Nome) VALUES
+    ('Atendente de caixa'),
+    ('Repositor'),
+    ('Faxineiro');
+
+INSERT INTO tbFuncionario (Nome, Idade, CargoID, Salario, Ativo) VALUES
+    ('Carlos Silva', 19, 1, 2000.25, 1),  
+    ('Ana Souza', 21, 2, 1700.50, 1),  
+    ('João Pereira', NULL, 3, 1450.75, 1),  
+    ('Mariana Lima', 20, NULL, 2500.00, 0);
