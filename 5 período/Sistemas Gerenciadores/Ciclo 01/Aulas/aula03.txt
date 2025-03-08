@@ -1,4 +1,66 @@
+O que é dados?
+os dados são o novo petróleo
+Um dado é a menor unidade de informação, que pode ser um número, uma letra, uma imagem, ou qualquer tipo de fato que pode ser registrado e analisado
 
+--------------------------------------------------------------------------------------------------------------------------
+
+DATA
+ - 1 curtida em uma foto do twitter
+ - Registro de 1 curtida feita pelo usuário
+ - 1 linha de uma tabela que estar no banco
+
+TABLE
+ - Diversas curtidas em fotos do twitter
+ - Lugar aonde serão reunidos todas as curtidas dos usuários
+ - Um tabela do banco aonde guarda as linhas
+
+DATABASE
+ - Curtidas em fotos, informações de preferênciasdos usuários, informações dos perfisdeusuários,etc
+ - Conjunto de várias informações que se relacionam, como curtidas, usuários e perfis
+ - Um banco com varias tabelas e multiplas linhas
+
+/* Bancos de dados são collections de tabelas inter-relacionadas que armazenam informações sobre pessoas, lugares ou objetos. */
+
+--------------------------------------------------------------------------------------------------------------------------
+
+DDL     | DML       | TCL       | DCL       |
+---------------------------------------------
+CREATED | INSERT    | COMMIT    | GRANT     |
+ALTER   | UPDATE    | ROLLBACK  | REVOKE    |
+DROP    | DELETE    |           |           |
+
+TCL e DCL são fundamentais para o processo de modelagem do banco
+
+--------------------------------------------------------------------------------------------------------------------------
+
+FASES DO PROJETO
+
+1. Entendimento do Problema
+2. Levantamento de Requisitos
+3. Identificação de Entidades e Relacionamentos
+4. Diagrama ER: Cardinalidades e Eliminação de N:N
+5. Definição das tabelas e Registrições de Integridade
+6. Normalização
+7. Ajustes no Modelo Lógico e Dicionário de Dados
+8. Implementação do Modelo Fisico
+9. Testes Básicos no SGBD
+
+--------------------------------------------------------------------------------------------------------------------------
+
+ENTIDADE:
+ - uma representação de um ser
+ - uma tabela
+ - | filme | | ator |
+
+ATRIBUTOS:
+ - as caracteristica deste ser
+ - as colunas
+ - | filme |(codigo, titulo, diretor) - | ator |(codigo, nome, genero)
+
+RELACIONAMENTO:
+ - as interligação de 2 ser
+ - conecção
+ - | filmes | -- < têm > -- | ator |
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -23,10 +85,17 @@ e no banco, quando e muitos pra muitos, transformamos um relacionamento em uma n
 
 --------------------------------------------------------------------------------------------------------------------------
 
-para consultar você pode fazer o seguinte
-[ select * from NOME_TABELA {comando do que deseja} ]
+SQL significa "Structured Query Language" = "linguagem de consulta estruturada"
 
-query é uma consulta
+QUERY siginifica consulta = aonde escreve e executa um código SQL
+
+--------------------------------------------------------------------------------------------------------------------------
+
+SGBD = Sistemas de Gerenciamento de Bancos de Dados
+permite ao desenvolvedor trabalhar com diferentes tabelas de um banco através de uma interface
+composto essencialmente por 2 partes:
+ - um servidor, onde vamos conseguir armazenar os nossos banco de dados
+ - uma interface que permite escrever os código em SQL
 
 --------------------------------------------------------------------------------------------------------------------------
 
@@ -36,5 +105,3 @@ SQLServer = SSMS
 SQLite = DBeaver
 IBM DB2 = Db2 client
 Oracle = SQL Developer
-
---------------------------------------------------------------------------------------------------------------------------
