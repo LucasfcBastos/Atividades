@@ -1,0 +1,8 @@
+O(1)        | Tempo constante       | Não cresce, independente do tamanho da entrada
+O(log n)    | Tempo logarítmico     | Cresce devagar, mesmo para entradas grandes
+O(n)        | Tempo linear          | Cresce na mesma proporção da entrada
+O(n log n)  | Tempo quase linear    | Cresce um pouco mais rápido que linear
+O(n^2)      | Tempo quadrático      | Cresce muito rápido, ruim para grandes entradas
+O(2^n)      | Tempo exponencial     | Cresce absurdamente rápido, inviável para grandes entradas
+
+------------------------------------------------------------------------------------------------------------------------
