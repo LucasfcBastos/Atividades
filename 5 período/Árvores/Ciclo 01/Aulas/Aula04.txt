@@ -1,0 +1,48 @@
+
+/* INSERTION SORT */
+
+CONCEIRO:
+Insere cada elemento em sua posição correta em uma sublista já ordenada
+
+PROCESSO:
+Começa com o segundo elemento, comparando-o com o anterior e movendo-o para a posição correta, repetindo o processo para os elementos restantes
+
+COMPLEXIDADE:
+ - MELHOR: O(n) - quando o array já está ordenado
+ - MÉDIO:  O(n^2) - similar ao pior caso, mas com ligeira melhora.
+ - PIOR:   O(n^2) - quando o array está em ordem inversa.
+ - ESTABILIDADE: 
+
+VANTAGENS:
+ • Eficiente para conjuntos de dados pequenos.
+ • Estável: mantém a ordem relativa dos elementos iguais.
+ • Em-place: não requer espaço extra.
+
+DESVANTAGENS:
+ • Ineficiente para conjuntos de dados grandes.
+ • Complexidade quadrática no pior caso.
+
+------------------------------------------------------------------------------------------------------------------------
+
+/* QUICK SORT */
+
+CONCEIRO:
+Dividir o array em duas sublistas: elementos menores que o pivô e maiores que o pivô
+
+PROCESSO:
+Repetir o particionamento nas sublistas até que o array seja totalmente ordenado
+
+COMPLEXIDADE:
+ - MELHOR: O(n log n) -  quando o pivô divide o array igualmente em cada etapa
+ - MÉDIO:  O(n^2) - quando o pivô é sempre o menor ou maior elemento
+ - PIOR:   O(n log n) - similar ao melhor caso, mas com variações
+ - ESTABILIDADE: 
+
+VANTAGENS:
+ • Eficiente para conjuntos de dados pequenos.
+ • Estável: mantém a ordem relativa dos elementos iguais.
+ • Em-place: não requer espaço extra.
+
+DESVANTAGENS:
+ • Ineficiente para conjuntos de dados grandes.
+ • Complexidade quadrática no pior caso.
