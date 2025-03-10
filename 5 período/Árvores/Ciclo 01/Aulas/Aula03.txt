@@ -1,3 +1,6 @@
+
+/* NOTAÇÃO BIG-O */
+
 O(1)        | Tempo constante       | Não cresce, independente do tamanho da entrada
 O(log n)    | Tempo logarítmico     | Cresce devagar, mesmo para entradas grandes
 O(n)        | Tempo linear          | Cresce na mesma proporção da entrada
@@ -6,3 +9,53 @@ O(n^2)      | Tempo quadrático      | Cresce muito rápido, ruim para grandes e
 O(2^n)      | Tempo exponencial     | Cresce absurdamente rápido, inviável para grandes entradas
 
 ------------------------------------------------------------------------------------------------------------------------
+
+/* BUBBLE SORT */
+
+CONCEIRO:
+Algoritmo simples que percorre rapetidamente, comparando elementos adjacentes e trocando-os se estiverem na ordem errada
+
+PROCESSO:
+O algoritmo continua fazendo passagens pela lista até que nenhuma troca seja necessária
+
+COMPLEXIDADE:
+ - MELHOR: O(n)   - quando o array já está ordenado
+ - MÉDIO:  O(n^2) - para a maioria das entradas aleatórias
+ - PIOR:   O(n^2) - quando o array está em ordem reversa
+ - ESTABILIDADE: Sim
+
+VANTAGENS:
+ • Fácil de entender e implementar
+ • Requer pouca memória adicional
+ • Detecta se a lista já está ordenada
+
+DESVANTAGENS:
+ • Ineficiente para grandes conjuntos de dados
+ • Complexidade quadrática no pior e caso médio
+ • Faz muitas trocas desnecessárias
+
+------------------------------------------------------------------------------------------------------------------------
+
+/* SELECTION SORT */
+
+CONCEIRO:
+Ele repetidamente seleciona o menor elemento da parte não ordenada e o move para o final da parte ordenada
+
+PROCESSO:
+encontra o menor elemento na parte não ordenada e o troca com o primeiro elemento dessa parte
+
+COMPLEXIDADE:
+ - MELHOR: O(n^2) - mesmo para um array já ordenado
+ - MÉDIO:  O(n^2) - para todas as entradas
+ - PIOR:   O(n^2) - independente da ordem inicial
+ - ESTABILIDADE: Não
+
+VANTAGENS:
+ • Simples de entender e implementar
+ • Funciona bem para listas pequenas
+ • Faz menos trocas que o Bubble Sort
+
+DESVANTAGENS:
+ • Ineficiente para grandes conjuntos de dados
+ • Complexidade quadrática em todos os casos
+ • Não aproveita a ordem parcial da lista
