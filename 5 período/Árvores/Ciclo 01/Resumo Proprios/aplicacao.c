@@ -133,7 +133,7 @@ int SelectionDec(int list[], int max) {
 
         for(int j = i + 1; j < max; j++) {
             com++;
-            if (list[j] < list[pos]) {
+            if (list[j] > list[pos]) {
                 pos = j;
             }
         }
