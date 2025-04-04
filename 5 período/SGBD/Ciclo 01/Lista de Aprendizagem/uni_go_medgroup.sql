@@ -183,3 +183,20 @@ FROM doctor tb
 SELECT tb.user_type
 FROM users tb
 WHERE tb.user_type LIKE 2
+
+--13
+SELECT tb.birth_date
+FROM patient tb
+WHERE CAST(RIGHT(tb.birth_date, 4) AS INT) < 1990;
+
+--14
+SELECT tb.doctor_id, COUNT(tb.patient_id) as 'Qtd'
+FROM medical_consultation tb
+GROUP BY tb.doctor_id
+
+--15
+SELECT COUNT(tb.doctor_id) as 'Qtd'
+FROM medical_consultation tb
+WHERE tb.doctor_id = 1
+
+--16

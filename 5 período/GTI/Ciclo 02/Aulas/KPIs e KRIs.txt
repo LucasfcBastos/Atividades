@@ -1,0 +1,38 @@
+aula 5 - governanca "KPIs e KRIs":
+
+----------------------------------------------------
+
+KPIs "indicador de performace"
+ - indicadores do objetivo
+    - você quantifica de forma efetiva
+    - media eficiencia de algo ou alguém
+    - KPIs, quantificar indicadores de desepenho
+
+SMART = específicos > mensuráveis > atigíveis > relevantes > temporais
+
+como implementar?
+1. Seleção de KPIs relevantes "como vamos achar os indicadores"
+2. Estabelecimento de metas "definir o valor realista"
+3. Coleta e anpalise de dados ""
+4. Revisão e ajustes ""
+
+----------------------------------------------------
+
+KRIs "indicador de riscos"
+ - idicadores para gerenciar riscos
+    - probabildiade de um risco acontecer
+
+como implementar?
+1. analise e riscos "gerenciamento de risco"
+2. monitoramento contínuo "verifica sempre os risco"
+3. implementação de controle "colocar os risco na pratica"
+4. avaliação de eficácia "media da quantidativa"
+
+----------------------------------------------------
+
+alerta de prova
+
+	?diferença de KPI e KRI?
+
+KPI "metas" = o que devemos atingir
+KRI "limite" = o que podem acontecer

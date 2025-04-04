@@ -1,0 +1,40 @@
+ITIL
+
+Ativos = São as coisas
+
+--------------------------------------------------------------
+
+ESTRATÉGIA
+
+--------------------------------------------------------------
+
+DESENHO
+
+--------------------------------------------------------------
+
+TRANSIÇÃO
+
+--------------------------------------------------------------
+
+OPERAÇÃO
+
+1. Gerenciamento de Incidentes:
+Evitar que 
+
+2. Gerenciamento de Pedidos:
+Niveis de chamadas
+
+3. Central de Serviços:
+"quantos mais canais, melhor é o meus serviços"
+
+--------------------------------------------------------------
+
+MELHORIA CONTÍNUA
+
+7 passos de melhoria
+
+Identificar > Definir > Coletar > Processar > Apresentar > Implementar > Revisar
+
+serviçõs sempre têm que ser melhorado
+
+--------------------------------------------------------------
