@@ -1,0 +1,104 @@
+:root {
+    /* -- CORES -- */
+    --background: #000;
+    --back2ground: #85858525;
+    --font: #fff;
+    --cor_button: #0000ff;
+    /* -- VARIAVEIS -- */
+    --marf_input: 1.5em;
+    --pad_but: 0.5em;
+    --radius: 0.3em;
+    --pad_text: 1em;
+    --font_table: 0.75em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: var(--background);
+    color: var(--font);
+}
+
+.camp {
+    background-color: var(--back2ground);
+    width: 60vw;
+    min-width: 27.5em;
+    margin-left: 50%;
+    transform: translate(-50%);
+    min-height: 100vh;
+}
+
+.text-center {
+    padding-top: var(--pad_text);
+    text-align: center;
+}
+
+label {
+    margin-left: calc(var(--marf_input) / 2);
+    font-weight: bolder;
+}
+
+.form-control {
+    display: flex;
+    width: calc(100% - (1.8 * var(--marf_input)));
+    height: calc(var(--marf_input));
+    margin: calc(var(--marf_input) / 5) 0px var(--marf_input) calc(var(--marf_input) - 0.5em);
+    padding: calc(var(--marf_input) / 2.5) calc(0px - var(--marf_input)) calc(var(--marf_input) / 2.5) calc(var(--marf_input) / 2);
+    border-radius: var(--radius);
+    border: 0px;
+    outline: none;
+}
+
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btn-primary.mt-4 {
+    margin: 0px 0px calc(var(--marf_input) / 2) calc(var(--marf_input) / 2) ;
+}
+
+.btn-primary {
+    padding: var(--pad_but);
+    background-color: transparent;
+    color: var(--font);
+    border: 0.2em solid var(--cor_button);
+    font-size: 1em;
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--cor_button);
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 2.5em;
+    font-size: var(--font_table);
+    width: 55vw;
+    min-width: 32.5em;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.500);
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.table tr {
+    text-align: center;
+    height: calc(var(--font_table) * 3);
+    font-size: calc(var(--font_table) * 1.5);
+}
+
+.table thead tr {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+.table tfoot tr:last-of-type {
+    border-top: 0.2em solid #00ff00;
+    border-bottom: 0.2em solid #00ff00;
+}

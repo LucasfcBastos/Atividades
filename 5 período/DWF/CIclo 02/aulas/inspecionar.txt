@@ -1,0 +1,89 @@
+-- *ELEMENTS* --
+
+Mostra a estrutura HTML e CSS de uma página em tempo real
+
+Para que serve:
+ - Ver e editar o HTML ou CSS "ao vivo" na página.
+ - Testar estilos sem alterar o código real.
+ - Ver como os elementos estão organizados no DOM.
+ - Inspecionar o layout e modificar margens, padding, cores etc.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *CONSOLE* --
+
+Um terminal interativo JavaScript.
+
+Para que serve:
+ - Ver mensagens de log (console.log, console.error, etc.).
+ - Testar trechos de código JavaScript na hora.
+ - Ver erros que estão acontecendo no site (como falhas em scripts).
+ - Depurar e imprimir valores de variáveis durante a execução.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *SOURCES* --
+
+Mostra todos os arquivos da página (HTML, CSS, JS) organizados por pastas.
+
+Para que serve:
+ - Depurar JavaScript com breakpoints.
+ - Ver e editar arquivos JS em tempo real.
+ - Ver o fluxo da execução do código.
+ - Usar "Watch", "Call Stack" e "Scope" para entender variáveis em tempo de execução.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *NETWORK* --
+
+Mostra todas as requisições que o site faz (carregamento de arquivos, APIs, imagens, etc.).
+
+Para que serve:
+ - Ver se a página está puxando dados corretamente.
+ - Ver o tempo de carregamento de cada recurso.
+ - Ver o status HTTP (200, 404, 500...).
+ - Ver os dados enviados e recebidos em APIs.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *PERFORMANCE* --
+
+Permite gravar e analisar o desempenho da página.
+
+Para que serve:
+ - Ver travamentos ou lentidão.
+ - Ver onde o navegador gastou mais tempo (repaint, reflow, JS...).
+ - Otimizar tempo de carregamento e resposta.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *APPLICATION* --
+
+Mostra recursos relacionados ao armazenamento da aplicação.
+
+Para que serve:
+ - Ver e limpar cookies, localStorage, sessionStorage.
+ - Gerenciar cache, IndexedDB, WebSQL.
+ - Inspecionar Service Workers e PWA (Progressive Web Apps).
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *SECURITY* --
+
+Mostra informações de segurança do site (HTTPS, certificados...).
+
+Para que serve:
+ - Ver se o site está seguro.
+ - Ver se há conteúdo misto (conteúdo HTTP em uma página HTTPS).
+ - Diagnosticar erros de certificado SSL.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+-- *LIGHTHOUSE* --
+
+Ferramenta de auditoria do Google.
+
+Para que serve:
+ - Analisar desempenho, acessibilidade, SEO, boas práticas.
+ - Gera um relatório com sugestões de melhorias.
+ - Avalia o quanto o site está "otimizado".
