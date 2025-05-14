@@ -1,0 +1,167 @@
+:root {
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #333;
+    --cor-header: #007bff;
+    --cor-header-texto: white;
+    --cor-botao-adicionar: #28a745;
+    --cor-botao-adicionar-hover: #1e7e34;
+    --cor-botao-remover: #dc3545;
+    --cor-botao-remover-hover: #c82333;
+    --cor-botao-concluir: #ffc107;
+    --cor-botao-concluir-hover: #e0a800;
+    --cor-texto-concluido: #777;
+    --cor-erro: #dc3545;
+    --cor-footer-texto: #777;
+    --cor-bordo: #ccc;
+    --cor-bordo-bottom: #eee;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: var(--cor-header);
+    color: var(--cor-header-texto);
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Main container */
+main {
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Seção de adicionar tarefa */
+#adicionar-tarefa {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#nova-tarefa {
+    flex: 1;
+    width: 97%;
+    padding: 0.5rem;
+    border: 1px solid var(--cor-bordo);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#btn-adicionar {
+    background-color: var(--cor-botao-adicionar);
+    color: white;
+    width: 100%;
+    border: none;
+    margin-top: 1em;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-adicionar:hover {
+    background-color: var(--cor-botao-adicionar-hover);
+}
+
+/* Mensagem de erro */
+.erro {
+    color: var(--cor-erro);
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Lista de tarefas */
+#tarefas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--cor-bordo-bottom);
+}
+
+/* Texto da tarefa */
+.tarefa-texto {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+/* Tarefa concluída */
+.concluida {
+    text-decoration: line-through;
+    color: var(--cor-texto-concluido);
+}
+
+/* Ações (botões) */
+.acoes {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.acoes button {
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.acoes .btn-concluir {
+    background-color: var(--cor-botao-concluir);
+    color: black;
+}
+
+.acoes .btn-concluir:hover {
+    background-color: var(--cor-botao-concluir-hover);
+}
+
+.acoes .btn-remover {
+    background-color: var(--cor-botao-remover);
+    color: white;
+}
+
+.acoes .btn-remover:hover {
+    background-color: var(--cor-botao-remover-hover);
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: var(--cor-footer-texto);
+    font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    #adicionar-tarefa {
+        flex-direction: column;
+    }
+
+    #btn-adicionar {
+        width: 100%;
+    }
+}

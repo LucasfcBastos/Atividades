@@ -1,0 +1,134 @@
+/* Definir variáveis para cores e estilos globais */
+:root {
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #333;
+    --cor-header: #007bff;
+    --cor-header-texto: white;
+    --cor-contador: #28a745;
+    --cor-botao-incrementar: #28a745;
+    --cor-botao-incrementar-hover: #1e7e34;
+    --cor-botao-decrementar: #dc3545;
+    --cor-botao-decrementar-hover: #c82333;
+    --cor-botao-resetar: #ffc107;
+    --cor-botao-resetar-hover: #e0a800;
+    --cor-erro-fundo: #007bff;
+    --cor-erro-texto: #FFFFFF;
+    --cor-footer-texto: #777;
+    --cor-bordo: #ccc;
+}
+
+/* Estilização geral do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilização do header */
+header {
+    background-color: var(--cor-header);
+    color: var(--cor-header-texto);
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilização do main */
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 2em;
+}
+
+/* Estilização do valor do contador */
+#valor-contador {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--cor-contador);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilização dos botões de controle */
+.botoes-controle {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Estilização geral dos botões */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+    min-width: 120px;
+}
+
+/* Botão incrementar */
+#incrementar-btn {
+    background-color: var(--cor-botao-incrementar);
+    color: white;
+}
+#incrementar-btn:hover {
+    background-color: var(--cor-botao-incrementar-hover);
+}
+
+/* Botão decrementar */
+#decrementar-btn {
+    background-color: var(--cor-botao-decrementar);
+    color: white;
+}
+#decrementar-btn:hover {
+    background-color: var(--cor-botao-decrementar-hover);
+}
+
+/* Botão resetar */
+#resetar-btn {
+    background-color: var(--cor-botao-resetar);
+    color: white;
+}
+#resetar-btn:hover {
+    background-color: var(--cor-botao-resetar-hover);
+}
+
+/* Estilização do erro */
+#erro-mensagem {
+    background-color: var(--cor-erro-fundo);
+    color: var(--cor-erro-texto);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Estilização do footer */
+footer {
+    text-align: center;
+    color: var(--cor-footer-texto);
+    padding-top: 20px;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 30rem) { /* 480px */
+    .botoes-controle button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

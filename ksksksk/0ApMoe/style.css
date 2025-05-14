@@ -1,0 +1,128 @@
+:root {
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #333;
+    --cor-header: #007bff;
+    --cor-header-texto: white;
+    --cor-botao: #28a745;
+    --cor-botao-hover: #1e7e34;
+    --cor-bordo: #ccc;
+    --cor-background: #e9ecef;
+    --cor-erro-fundo: #f8d7da;
+    --cor-erro-texto: #721c24;
+    --cor-erro-bordo: #f5c6cb;
+    --cor-footer-texto: #777;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--cor-header);
+    color: var(--cor-header-texto);
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Conteúdo principal */
+main {
+    background-color: var(--cor-background);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Grupos de formulário */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Rótulos */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Campos de entrada e selects */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--cor-bordo);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Botão */
+button {
+    background-color: var(--cor-botao);
+    color: white;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--cor-botao-hover);
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Erro */
+#erro-mensagem {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--cor-erro-fundo);
+    color: var(--cor-erro-texto);
+    border: 1px solid var(--cor-erro-bordo);
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: var(--cor-footer-texto);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+/* Estilos responsivos */
+@media (max-width: 37.5rem) { /* 600px */
+    main {
+        margin: 1rem 0;
+        padding: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}

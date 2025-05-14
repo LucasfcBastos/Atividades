@@ -78,7 +78,7 @@ label {
 
 .table {
     border-collapse: collapse;
-    margin: 2.5em;
+    margin: 2.5em 0 0 0;
     font-size: var(--font_table);
     width: 55vw;
     min-width: 32.5em;
